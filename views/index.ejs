@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!--<script type="text/javascript" src="../node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js"></script>-->
+    <!--<script type="text/javascript" src="../public/javascripts/custom.js"></script>-->
+    <script type="text/javascript" src="/javascripts/socket.io.js"></script>
+    <script type="text/javascript" src="/javascripts/custom.js"></script>
+    <style>
+      .btn{width:88px; height:28px; border: 1px solid #cfcfcf; border-radius: 3px;}
+      .iptValue{width:260px; height: 28px;border:1px solid #c7ddef}
+    </style>
+  </head>
+  <body>
+    <!--<h1><%= title %></h1>-->
+    <p id="headLine"></p>
+    <div class="chatAction">
+      <textarea name="" id="content" cols="30" rows="10"></textarea>
+      <button class="btn clear">clear</button>
+      <input type="text" class="iptValue" id="iptValue">
+      <button class="btn" id="submit">submit</button>
+    </div>
+
+  </body>
+</html>
